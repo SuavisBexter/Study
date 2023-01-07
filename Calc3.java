@@ -38,14 +38,21 @@ public class Calc3 extends HttpServlet {
             } catch (ScriptException e) {
                 e.printStackTrace();
             }
-        } else{
+        }
+        else if(operator != null && operator.equals("C")){
+            exp = "";
+        }
+        else{
             exp += (value==null)?"":value;
             exp += (operator==null)?"":operator;
             exp += (dot==null)?"":dot;
         }
 
         Cookie expCookie = new Cookie("exp", exp);
-            resp.addCookie(expCookie);
-            resp.sendRedirect("calcpage");
+        if(operator != null && operator.equals("C")){
+            expCookie.setMaxAge(0);
+        }
+        resp.addCookie(expCookie);
+        resp.sendRedirect("calcpage");
     }
 }
