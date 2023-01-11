@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script th:inline="javascript">
+  /*<![CDATA[*/
+
+  var writemessage = [[${writemessage}]];
+  var updatemessage = [[${updatemessage}]];
+  var deletemessage = [[${deletemessage}]];
+
+    if(writemessage!=null){
+        alert(writemessage);
+    }  else if(updatemessage!=null){
+        alert(updatemessage);
+    } else if(deletemessage!=null){
+        alert(deletemessage);
+    };
+
+  location.replace([[${searchUrl}]]);
+   /*]]>*/
+</script>
+<body>
+
+</body>
+</html>

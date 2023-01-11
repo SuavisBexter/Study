@@ -1,0 +1,215 @@
+html{overflow-y: scroll;} 
+*{margin: 0 auto; padding: 0;}
+body{font-family:'留묒� 怨좊뵓', sans-serif; color: #333333;}
+ul, ol, dl, li{list-style: none;}
+img{border: 0;}
+a{text-decoration: none;}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+.cf:after{clear: both; display: block; content: '';}
+.hidden{display: none;}
+.colorRed{color: #d25747;}
+
+#header{width: 100%; height: 371px;}
+	.headerTit{width: 1420px; height: 83px;}
+	.headerMenu{width: 100%; height: 80px;}
+	.headerImg{width: 100%; height: 208px;}
+
+#section{width: 100%; height: 100%;}
+	.secBoardLinkBox{width:100%; height: 58px;}
+		.secBoardLink{width: 1419px; height: 58px;}
+	.secSearchBox{width: 1420px; height: 230px;}
+		.secSearchBoxT{width: 1420px; height: 234px;}
+		.secSearchBoxM{width: 1420px; height: 83px;}
+		.secSearchBoxB{width: 1420px; height: 95px;}  
+	.secPageNumber{width: 1420px; height: 229px;}
+	.secBoard{width: 1420px; height: 550px;}
+	.secBoardGumsaek{width: 1420px; height: 1000px;}
+	.secBoard > h1.ssugi{margin-left: 570px; font-size: 45px; margin-top: 50px; margin-bottom: 50px;}
+	.secBoard > h1.sangse{margin-left: 545px; font-size: 45px; margin-top: 50px; margin-bottom: 50px;}
+	.secBoard > h1.sujung{margin-left: 545px; font-size: 45px; margin-top: 50px; margin-bottom: 50px;}
+	.secBoardGumsaek > h1.gumsaek{margin-left: 590px; font-size: 45px; margin-top: 50px; margin-bottom: 50px;}
+	.secBoard > form > p {font-size: 20px; margin-bottom: 30px; margin-left: 523px;}
+	.secBoard > form input.boardInput{width: 300px; border: 1px solid #04264c; height: 30px;}
+	.saveBtn{width: 100px; height: 40px; border: none; color: white; background: #004fa8; font-size: 20px; margin-top: 20px; margin-left: 150px;}
+	.sangseP{font-size: 20px; margin-bottom: 30px;}
+	.gumsaekBox{width: 500px; height: 45px; border: none; background : #eeeeee; font-size: 18px; margin-left: 410px; padding-left: 20px;}
+	.gumsaekBtn{width: 80px; height: 45px; border: none; font-size: 18px; background: #004fa8; color: white;}
+	.boardTitle{width: 1420px; height: 50px; background: #04264c; font-size: 18px; color: white; margin-top: 50px; font-weight: bold;}
+	.boardTitle> div{line-height: 50px;}
+	.boardTitleT1{margin-left: 50px;}
+	.boardTitleT2{margin-left: 600px;}
+	.boardTitleT3{margin-left: 425px;}
+	.boardTitleT4{margin-left: 108px;}
+	.boardContents{width: 1420px;}
+	.boardContentsPiece{width: 1420px; height: 50px; border-bottom: 1px dotted #333333;}
+	.piece1{width: 130px; height: 50px; line-height: 50px; font-size: 16px; text-align: center;}
+	.piece2{width: 920px; height: 50px; line-height: 50px; font-size: 16px; padding-left: 40px;}
+	.piece3{width: 165px; height: 50px; line-height: 50px; font-size: 16px; text-align: center;}
+	.piece4{width: 165px; height: 50px; line-height: 50px; font-size: 16px; text-align: center;}
+	.mr40{margin-right: 40px;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+#footer{width: 100%; height: 283px;}
+	.footerNuriBox{width:100%; height: 80px; background-color: #f1f1f1;}
+		.footerNuri{width: 1420px; height: 80px;}
+	.footerPolicyBox{width: 100%; height: 51px; background-color: #30343f;}
+		.footerPolicy{width: 1420px; height: 51px;}
+	.footerAddressBox{width: 100%; height: 152px; background-color: #3b414d;}
+		.footerAddress{width: 1420px; height: 152px; background-color: #3b414d;}
+		.footerAddressTextBox{display: inline-block; width: 850px; height: 152px;}
+		.footerValidityImg{width: 230px; height: 152px; float: right;}
+		.sujungBtn{width: 80px; height: 40px; border: none; font-size: 17px; margin-left: 555px; margin-top: 50px;}
+		.sakjeBtn{width: 80px; height: 40px; border: none; font-size: 17px; display: block; margin-left: 30px; margin-top: 50px; color: white; background: #004fa8;}
+		.listBackBtn{width: 80px; height: 40px; border: none; font-size: 17px; margin-left: 30px; margin-top: 50px;}
+
+/* header */
+
+#policeMainLogo{width:215px; height:83px;}
+#taegeukgi{width: 55px; height: 35px; margin-top: 25px; margin-left: 30px; border: 1px solid #eaeaea;}
+.headerTit > span > a{font-size: 12px; color: #333333; font-weight: bold; margin-left: 10px; margin-top: 30px; letter-spacing: -1px;}
+#headerSearch{border: 1px solid #d2d2d2; font: 15px '留묒� 怨좊뵓', sans-serif; font-weight: bold; width: 273px; height: 40px; padding-left: 10px; margin-left: 525px; margin-top: 24px;}
+.headerSubmit{border: none; width: 95px; height: 40px; background-color: #004fa8; font: 15px '留묒� 怨좊뵓', sans-serif; color: white; font-weight: bold; position: relative; right: 5px;}
+.headerFieldSet{border: none;}
+#login > a{font-size: 15px; color: #9a9a9a; display: block;}
+#login{float: left; margin-left: 70px; margin-top: 16px;}
+.fontCustom > div{border: 1px solid #9a9a9a; text-align: center; height: 22px; width: 22px; font: 13px '留묒�怨좊뵓',sans-serif; font-weight: bold; color: #5d5d5d; line-height: 22px; float: left; margin-top: 7px; margin-right: 3px; float: left;}
+.fontCustom > div > a{color: #333333;}
+.fontCustom{margin-left: 60px; float: left;}
+#headerMenuBtn{width: 55px; height: 56px; margin-top: 11px; float: left;}
+.headerMenu{background-color: #04264c;}
+.menu{width: 1420px;}
+.nav .menuTit> a{font-size: 13px;}
+.menuTit{float: left; margin: 0 auto;}
+.nav .menuTit a{font-size: 14px; color: #333333;}
+.menuTit > a{text-align: center; display: block;}
+.nav .menuTit > a:hover > h2 > span{color: #ffb71b;}
+.englishMenu > a:hover > h2{color: #ffb71b;}
+.nav .menuTit:hover .twoInner{display: block;}
+.headerMenu{position: relative;}
+.twoDepth{width: 1420px; margin: 0 auto;}
+.twoInner{display: none; position: absolute; left: 0px; top: 73px;  width: 100%; background-color: white; border-left: 1px solid #c2c2c2; border-right: 1px solid #c2c2c2; box-shadow: 0 0 10px -3px;}.twoDepth > ul{float: left;}
+.twoDepth > ul > li{padding-left: 40px; padding-bottom: 10px;}
+.menuSTit{padding-top: 30px; margin-bottom: 10px;}
+.twoDepth > ul{padding-right: 30px;}
+.twoDepth > ul > li.menuSTit a{font-size: 18px; font-weight: bold; color: #333333;}
+.menuML > li{margin-left: 220px;}
+.menuTit > a span{padding-right: 20px; padding-left: 20px; color: white;}
+.englishMenu h2{padding-left: 20px; padding-right: 20px;}
+.menuTit h2{padding-top: 25px; padding-bottom: 25px; margin-left: 17px; color: white;  letter-spacing: -1px;}
+.news{margin-left: 200px;}
+.headerImg{background: url(../images/sub_visual1.jpg) no-repeat center; background-size: cover;}
+.menuSTit li a{font-size: 14px; color: #333333;}
+.twoDepth > ul > .twoDepthPaddingBtm{padding-bottom: 40px;}
+.twoDepth ul li.menuSText a:hover{color: #ffb71b;}
+.menuSText{font-weight: bold;}
+
+
+/* section */
+
+.secBoardLinkBox{border-bottom: 1px solid #d2d2d2;}
+.secBoardLink{border-bottom: 1px solid #d2d2d2; border-right: 1px solid #d2d2d2;}
+.secBoardLink > a > img{width: 57px; height: 58px; float: left;}
+.secBoardLink > .secBoardLinkText{width: 240px; height: 58px; float: left; border-right: 1px solid #d2d2d2; font-weight: bold; line-height: 58px; padding-left: 20px;}
+.bgGray{background-color: #eeeeee;}
+#link{display: block; float: left; width:55px; height: 58px; border-right: 1px solid #d2d2d2; margin-left: 410px; border-left: 1px solid #d2d2d2;}
+#print{display: block; float: left; width:55px; height: 58px; border-right: 1px solid #d2d2d2;}
+.freeBoard{text-align: center; font: 25px '留묒� 怨좊뵓',sans-serif; font-weight: bold; padding-top: 45px; display: block; margin: 0 auto; width: 500px;}
+.freeBoard-Text{text-align: center; font: 15px '留묒� 怨좊뵓',sans-serif; padding-top: 5px; color: #5f5f5f; font-weight: bold;}
+.policeClamePortal{text-align: center; padding-top: 25px; font-size: 17px; font-weight: bold;}
+.policeClamePortal > a{color: #04264c;}
+fieldset{border: none;}
+	.secSearchBoxM{width: 1420px; height: 83px; background-color: #eeeeee;}
+	#searchChoice{border: 1px solid #d2d2d2; margin-left: 270px; margin-top: 20px; padding-left: 10px;}
+	#searchWrite{border: 1px solid #d2d2d2; width: 530px; height: 45px; color: #9f9f9f; font: 15px '留묒� 怨좊뵓', sans-serif; padding-left: 10px; font-weight: bold;}
+	.searchBtnMain{border: none; width: 85px; height: 45px; background-color: #004fa8; font: 13px '留묒� 怨좊뵓', sans-serif; color: white; font-weight: bold;}
+	.searchBtnRefresh{border: none; width: 75px; height: 45px; background-color: #004fa8; font: 13px '留묒� 怨좊뵓', sans-serif; color: white; font-weight: bold;}
+.Post{font-size: 17px; font-weight: bold;}
+.allPost{padding-left: 25px; padding-top: 47px; letter-spacing: -1px;}
+.nowPage{padding-left: 20px; margin-top: 47px;}
+.pagePer{padding-left: 830px; margin-top: 47px;}
+#pageChoice{margin-top: 35px; margin-left: 2px; border: 1px solid #eaeaea;}
+.pageChange{width: 55px; height: 43px; border: 1px solid #767d83; background-color: #767d83; font-weight: bold; color: white; }
+.pageChangeBtn{margin-top: 10px;}
+.secBoardTitle{border-top: 2px solid #333333; border-bottom: 1px solid #cccccc; height: 50px;
+	line-height: 50px; background-color: #f9f9f9;}
+	.secBoardTitle > span {font-weight: bold; color: #333333;}
+		.secBoardTitleTextTurn{border-right: 1px solid #e5e5e5; padding-left: 31px; padding-right: 32px;}
+		.secBoardTitleTextTitle{border-right: 1px solid #e5e5e5;padding-left: 10px; padding-right: 852px;}
+		.secBoardTitleTextWriter{border-right: 1px solid #e5e5e5;padding-left: 32px; padding-right: 39px;}
+		.secBoardTitleTextDate{border-right: 1px solid #e5e5e5;padding-left: 40px; padding-right: 47px;}
+		.secBoardTitleTextViewNumber{padding-left: 40px;}
+	.secBoardContents > div{border-bottom: 1px solid #cccccc; height: 50px; line-height: 50px;}
+		.secBoardContentsFont{font-weight: bold; color: #333333;}
+	.secBoardContents div div{float: left;}
+	.secBoardContentsNumber{padding-left: 25px; padding-right: 38px;}
+	.secBoardContentsTitle{padding-right: 545px;}
+	.secBoardContentsTitle2{padding-right: 637px;}
+	.secBoardContentsTitle3{padding-right: 818px;}
+	.secBoardContentsTitle4{padding-right: 725px;}
+	.secBoardContentsTitle5{padding-right: 572px;}
+	.secBoardContentsTitle6{padding-right: 632px;}
+	.secBoardContentsTitle7{padding-right: 590px;}
+	.secBoardContentsTitle8{padding-right: 740px;}
+	.secBoardContentsTitle9{padding-right: 593px;}
+	.secBoardContentsTitle10{padding-right: 630px;}
+	.secBoardContents > div > .secBoardContentsTitle > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle2 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle3 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle4 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle5 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle6 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle7 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle8 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle9 > a{color: #04264c;}
+	.secBoardContents > div > .secBoardContentsTitle10 > a{color: #04264c;}
+	.secBoardContentsDate{padding-left: 85px;}
+	.secBoardContentsViewNumber{padding-left: 88px;}
+	.secBoardContentsViewNumber2{padding-left: 91px;}
+	.secBoardContents div div a{font-weight: bold;}
+	.myWriting{width: 200px; height: 50px; margin-left: 1134px; border: 1px solid #c2c2c2; background-color: white; font-weight: bold; font-size: 16px;}
+	.Writing{width: 80px; height: 48px;  margin-top: 15px; border: none; background-color: #004fa8; color: white; font-size: 16px;}
+	.boardPageNumber > div{width: 35px; height: 35px; border-top: 1px solid #c2c2c2; border-left: 1px solid #c2c2c2; border-bottom: 1px solid #c2c2c2; text-align: center; line-height: 35px; font-weight: bold;}
+	.boardPageNumber{margin-left: 492px; margin-top: 30px;}
+	.boardPageNumber10{margin-right: 30px;}
+	.boardPageNumberBR{border-right: 1px solid #c2c2c2;}
+	.boardTableTitle{padding: 10px;}
+	.boardTableText{padding: 5px;}
+	.cls1:link{color: black;}
+	.cls1:hover{text-decoration:underline;}
+	.cls1:visited{color: purple; text-decoration: underline;}
+	
+/* footer */
+
+.footerNuri{background-color: #f1f1f1;}
+.footerNuri > div > div{width: 310px; height: 45px; border: 1px solid #c2c2c2; margin-top: 18px; margin-right: 10px; line-height: 45px; padding-left: 10px; font-weight: bold; background-color: white;}	
+.footerNuriImg{width: 44px; height: 45px; margin-top: 18px;}
+.buserNuri{margin-left: 22px;}
+.footerPolicy > div{float: left; font-weight: bold;}
+.footerPolicy{background-color: #30343f;}
+.privacyPolicy{height: 51px; display: block; color: #fbcd32; letter-spacing: -1px; line-height: 49px;}
+.copyRightPolicy{height: 51px; display: block; color: white; letter-spacing: -1px; line-height: 49px; margin-left: 25px;}
+.publicData{height: 51px; display: block; color: white; letter-spacing: -1px; line-height: 49px; margin-left: 22px;}
+.documentDownload{height: 51px; display: block; color: white; letter-spacing: -1px; line-height: 49px; margin-left: 22px;}
+.guide{height: 51px; display: block; color: white; letter-spacing: -1px; line-height: 49px; margin-left: 30px;}
+.organization{height: 51px; display: block; color: white; line-height: 49px; margin-left: 30px; letter-spacing: -1px;}
+.addressPolice{font: 16px '留묒� 怨좊뵓', sans-serif; color: white; font-weight: bold;}
+.footerAddressText > address >.footerBR{border-right: 1px solid #6c6c6c; padding-right: 10px;}
+.footerAddressText > address >.colorYellow{color: #fbcd32; padding-left: 5px;}
+.footerAddressText{padding-top: 40px;}
+.copyRightPolice{color: #9cc4d1; font-weight: bold;}
+.warningMessage{font: 14px '留묒� 怨좊뵓', sans-serif; color: #8da9c8; padding-top: 25px;}
+#webWatch{width: 115px; padding-left: 15px; padding-top: 30px;}
+#ePrivacy{width: 72px; height: 72px; padding-left: 20px;}
